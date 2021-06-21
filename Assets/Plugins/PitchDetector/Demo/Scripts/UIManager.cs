@@ -90,7 +90,7 @@ public class UIManager : MonoBehaviour
                 {
                     median = sortedNumbers[halfIndex];
                 }
-                Debug.Log(median);
+               
                 score.text = Math.Round(freq[numberCount - 1] - median, 1).ToString();
             }
             
